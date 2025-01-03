@@ -1,0 +1,2 @@
+It is a ToDo App created using class based view. It has a home page with the image of Todo App. We can add, update, delete task and view list of task that we have added. We can also search task by their title in the search bar and it will show the list of matching task. If any task is not available then user will get notified for the same. If user adding more than 3 tasks the user will also get to see the pagination that has been added in the app and easily select the pages according to their preference.
+For styling the app I have used bootstrap and few css code.
