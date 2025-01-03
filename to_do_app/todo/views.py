@@ -20,21 +20,21 @@ class TodoListView(ListView):
 class ItemCreate(CreateView):
     model = Todo
     fields = ['title','description', 'date']
-    success_url = '/'
+    success_url = '/about'
 
  
 class todoupdateview(UpdateView):
     model = Todo
     fields = ['title','description', 'date']
-    success_url = '/'
+    success_url = '/about'
 
     
 class tododeleteview(DeleteView):
     model = Todo
-    success_url = '/'
+    success_url = '/about'
 
 def about(request):
-    return render(request, 'todo/about.html')
+    return render(request, 'todo/home.html')
 
 
 
